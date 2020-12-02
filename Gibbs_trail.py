@@ -108,7 +108,6 @@ err_arr = []  # Array for storing error between actual function value and Fourie
 for ii in range(-no_terms, no_terms+1):
     comp_Four_arr += [midpoint_rule_integration(l_i_p, r_i_p, ii, no_integration)]
 
-print(len(comp_Four_arr))
 real_Four_arr = complex_to_real(comp_Four_arr, real_Four_arr, no_terms)  # Array for storing real Fourier coefficients
 
 for ii in range(no_plotting+1):
