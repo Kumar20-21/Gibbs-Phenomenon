@@ -3,12 +3,6 @@ import numpy as np
 import math as ma
 
 
-"""
-from sumpy.interactive import printing
-printing.init_printing(use_latex = true)
-"""
-
-
 def function_triangle_wave(a, b, x):
     L = b-a
     x = x - (x//L+1)*L-a
